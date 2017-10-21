@@ -1,0 +1,125 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+g:markdown_fenced_languages	/Users/adrian/.config/nvim/custom/config/_misc.vim	/^let g:markdown_fenced_languages = ['bash=sh', 'coffee', 'css', 'erb=eruby', 'javascript', 'js=javascript', 'json=javascript', 'ruby', 'sass', 'xml', 'html', 'elixir']$/;"	variable	line:5
+<Bar>	/Users/adrian/.config/nvim/custom/config/_misc.vim	/^inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a$/;"	map	line:9
+align	/Users/adrian/.config/nvim/custom/config/_misc.vim	/^function! s:align()$/;"	function	line:11
+g:bookmark_auto_save	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:bookmark_auto_save = 1$/;"	variable	line:5
+g:bookmark_save_per_working_dir	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:bookmark_save_per_working_dir = 1$/;"	variable	line:8
+g:bookmark_no_default_key_mappings	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:bookmark_no_default_key_mappings = 1$/;"	variable	line:11
+BookmarkMapKeys	/Users/adrian/.config/nvim/custom/config/_more.vim	/^function! BookmarkMapKeys()$/;"	function	line:15
+BookmarkUnmapKeys	/Users/adrian/.config/nvim/custom/config/_more.vim	/^function! BookmarkUnmapKeys()$/;"	function	line:26
+g:deoplete#enable_at_startup	/Users/adrian/.config/nvim/custom/config/_more.vim	/^    let g:deoplete#enable_at_startup = 1$/;"	variable	line:45
+Multiple_cursors_before	/Users/adrian/.config/nvim/custom/config/_more.vim	/^function! Multiple_cursors_before()$/;"	function	line:49
+Multiple_cursors_after	/Users/adrian/.config/nvim/custom/config/_more.vim	/^function! Multiple_cursors_after()$/;"	function	line:53
+g:airline#extensions#tabline#enabled	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:airline#extensions#tabline#enabled = 1$/;"	variable	line:64
+g:airline#extensions#tabline#show_tabs	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:airline#extensions#tabline#show_tabs = 0$/;"	variable	line:68
+g:tmux_navigator_no_mappings	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:tmux_navigator_no_mappings = 1$/;"	variable	line:82
+g:tmux_navigator_save_on_switch	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:tmux_navigator_save_on_switch = 1$/;"	variable	line:83
+<c-h>	/Users/adrian/.config/nvim/custom/config/_more.vim	/^nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>$/;"	map	line:86
+<c-j>	/Users/adrian/.config/nvim/custom/config/_more.vim	/^nnoremap <silent> <c-j> :TmuxNavigateDown<cr>$/;"	map	line:87
+<c-k>	/Users/adrian/.config/nvim/custom/config/_more.vim	/^nnoremap <silent> <c-k> :TmuxNavigateUp<cr>$/;"	map	line:88
+<c-l>	/Users/adrian/.config/nvim/custom/config/_more.vim	/^nnoremap <silent> <c-l> :TmuxNavigateRight<cr>$/;"	map	line:89
+<c-\>	/Users/adrian/.config/nvim/custom/config/_more.vim	/^nnoremap <silent> <c-\\> :TmuxNavigatePrevious<cr>$/;"	map	line:90
+g:ctrlp_map	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:ctrlp_map = ''$/;"	variable	line:99
+<leader><leader>w	/Users/adrian/.config/nvim/custom/config/_more.vim	/^map  <leader><leader>w <Plug>(easymotion-bd-w)$/;"	map	line:105
+<leader><leader>w	/Users/adrian/.config/nvim/custom/config/_more.vim	/^nmap <leader><leader>w <Plug>(easymotion-overwin-w)$/;"	map	line:106
+<c-p>	/Users/adrian/.config/nvim/custom/config/_more.vim	/^nnoremap <c-p> :FZF<cr>$/;"	map	line:111
+<F3>	/Users/adrian/.config/nvim/custom/config/_more.vim	/^nnoremap <F3> :TagbarToggle<cr>$/;"	map	line:117
+g:tagbar_type_go	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:tagbar_type_go = {$/;"	variable	line:121
+g:vim_markdown_folding_disabled	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:vim_markdown_folding_disabled = 1$/;"	variable	line:153
+g:vim_markdown_toc_autofit	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:vim_markdown_toc_autofit = 1$/;"	variable	line:156
+<leader>w	/Users/adrian/.config/nvim/custom/config/_more.vim	/^nnoremap <leader>w :Bclose<cr>$/;"	map	line:162
+<leader>a	/Users/adrian/.config/nvim/custom/config/_more.vim	/^nnoremap <leader>a :Ack!<space>$/;"	map	line:168
+<leader>d	/Users/adrian/.config/nvim/custom/config/_more.vim	/^nnoremap <leader>d :NERDTreeToggle<cr>$/;"	map	line:173
+<F2>	/Users/adrian/.config/nvim/custom/config/_more.vim	/^nnoremap <F2> :NERDTreeToggle<cr>$/;"	map	line:174
+NERDTreeIgnore	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let NERDTreeIgnore = [$/;"	variable	line:177
+NERDTreeShowHidden	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let NERDTreeShowHidden = 1$/;"	variable	line:190
+g:delve_backend	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:delve_backend = "native"$/;"	variable	line:196
+g:neosnippet#disable_runtime_snippets	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:neosnippet#disable_runtime_snippets = {$/;"	variable	line:206
+<C-k>	/Users/adrian/.config/nvim/custom/config/_more.vim	/^imap <C-k> <Plug>(neosnippet_expand_or_jump)$/;"	map	line:211
+g:neosnippet#snippets_directory	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:neosnippet#snippets_directory='~\/.config\/nvim\/snippets'$/;"	variable	line:216
+g:vimwiki_list	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:vimwiki_list = [{$/;"	variable	line:222
+g:multi_cursor_next_key	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:multi_cursor_next_key='<C-n>'$/;"	variable	line:235
+g:multi_cursor_skip_key	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:multi_cursor_skip_key='<C-b>'$/;"	variable	line:236
+g:deoplete#sources#go#pointer	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:deoplete#sources#go#pointer = 1$/;"	variable	line:242
+g:go_fmt_command	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_fmt_command = "goimports"$/;"	variable	line:266
+g:go_snippet_engine	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_snippet_engine = "neosnippet"$/;"	variable	line:269
+g:go_highlight_types	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_highlight_types = 1$/;"	variable	line:272
+g:go_highlight_fields	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_highlight_fields = 1$/;"	variable	line:273
+g:go_highlight_functions	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_highlight_functions = 1$/;"	variable	line:274
+g:go_highlight_methods	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_highlight_methods = 1$/;"	variable	line:275
+g:go_highlight_structs	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_highlight_structs = 1$/;"	variable	line:276
+g:go_highlight_operators	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_highlight_operators = 1$/;"	variable	line:277
+g:go_highlight_build_constraints	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_highlight_build_constraints = 1$/;"	variable	line:278
+g:go_highlight_extra_types	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_highlight_extra_types = 1$/;"	variable	line:279
+g:go_auto_type_info	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_auto_type_info = 1$/;"	variable	line:282
+g:go_auto_sameids	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_auto_sameids = 1$/;"	variable	line:285
+g:go_list_type	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_list_type = "quickfix"$/;"	variable	line:288
+g:go_metalinter_command	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_metalinter_command = ""$/;"	variable	line:291
+g:go_metalinter_deadline	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_metalinter_deadline = "5s"$/;"	variable	line:292
+g:go_metalinter_enabled	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_metalinter_enabled = [$/;"	variable	line:293
+g:go_addtags_transform	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_addtags_transform = "snakecase"$/;"	variable	line:307
+g:go_alternate_mode	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:go_alternate_mode = "edit"$/;"	variable	line:310
+g:ale_sign_error	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:ale_sign_error = '⤫'$/;"	variable	line:316
+g:ale_sign_warning	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:ale_sign_warning = '⚠'$/;"	variable	line:317
+g:airline#extensions#ale#enabled	/Users/adrian/.config/nvim/custom/config/_more.vim	/^let g:airline#extensions#ale#enabled = 1$/;"	variable	line:320
+mydelimitMate	/Users/adrian/.config/nvim/custom/config/delimitmate.vim	/^augroup mydelimitMate$/;"	augroup	line:10
+g:vim_json_syntax_conceal	/Users/adrian/.config/nvim/custom/config/json.vim	/^let g:vim_json_syntax_conceal = 0$/;"	variable	line:4
+g:indentLine_noConcealCursor	/Users/adrian/.config/nvim/custom/config/json.vim	/^let g:indentLine_noConcealCursor=""$/;"	variable	line:5
+<Leader>md	/Users/adrian/.config/nvim/custom/config/mix.vim	/^nmap <Leader>md :Mix<CR>$/;"	map	line:3
+<Leader>mc	/Users/adrian/.config/nvim/custom/config/mix.vim	/^nmap <Leader>mc :Mclean<CR>$/;"	map	line:4
+<Leader>mm	/Users/adrian/.config/nvim/custom/config/mix.vim	/^nmap <Leader>mm :Mcompile<CR>$/;"	map	line:5
+<Leader>md	/Users/adrian/.config/nvim/custom/config/mix.vim	/^nmap <Leader>md :Mdeps<CR>$/;"	map	line:6
+<Leader>mdc	/Users/adrian/.config/nvim/custom/config/mix.vim	/^nmap <Leader>mdc :Mdeps clean<CR>$/;"	map	line:7
+<Leader>mdm	/Users/adrian/.config/nvim/custom/config/mix.vim	/^nmap <Leader>mdm :Mdeps compile<CR>$/;"	map	line:8
+<Leader>mdg	/Users/adrian/.config/nvim/custom/config/mix.vim	/^nmap <Leader>mdg :Mdeps get<CR>$/;"	map	line:9
+<Leader>mdu	/Users/adrian/.config/nvim/custom/config/mix.vim	/^nmap <Leader>mdu :Mdeps update<CR>$/;"	map	line:10
+<Leader>mt	/Users/adrian/.config/nvim/custom/config/mix.vim	/^nmap <Leader>mt :Mtest<CR>$/;"	map	line:11
+g:multi_cursor_use_default_mapping	/Users/adrian/.config/nvim/custom/config/multicursor.vim	/^let g:multi_cursor_use_default_mapping=0$/;"	variable	line:9
+g:multi_cursor_start_key	/Users/adrian/.config/nvim/custom/config/multicursor.vim	/^let g:multi_cursor_start_key='<F6>'$/;"	variable	line:11
+g:acp_enableAtStartup	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^let g:acp_enableAtStartup = 0$/;"	variable	line:3
+g:neocomplete#enable_at_startup	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^let g:neocomplete#enable_at_startup = 1$/;"	variable	line:5
+g:neocomplete#enable_smart_case	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^let g:neocomplete#enable_smart_case = 1$/;"	variable	line:7
+g:neocomplete#sources#syntax#min_keyword_length	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^let g:neocomplete#sources#syntax#min_keyword_length = 3$/;"	variable	line:9
+g:neocomplete#sources#dictionary#dictionaries	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^let g:neocomplete#sources#dictionary#dictionaries = {$/;"	variable	line:12
+g:neocomplete#keyword_patterns	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^    let g:neocomplete#keyword_patterns = {}$/;"	variable	line:20
+g:neocomplete#keyword_patterns	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^let g:neocomplete#keyword_patterns['default'] = '\\h\\w*'$/;"	variable	line:22
+<C-g>	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^inoremap <expr><C-g>     neocomplete#undo_completion()$/;"	map	line:25
+<C-l>	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^inoremap <expr><C-l>     neocomplete#complete_common_string()$/;"	map	line:26
+<CR>	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^inoremap <silent> <CR> <C-r>=<SID>my_cr_function()<CR>$/;"	map	line:30
+my_cr_function	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^function! s:my_cr_function()$/;"	function	line:31
+<TAB>	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^inoremap <expr><TAB>  pumvisible() ? "\\<C-n>" : "\\<TAB>"$/;"	map	line:37
+<C-h>	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^inoremap <expr><C-h> neocomplete#smart_close_popup()."\\<C-h>"$/;"	map	line:39
+<BS>	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^inoremap <expr><BS> neocomplete#smart_close_popup()."\\<C-h>"$/;"	map	line:40
+g:neocomplete#sources#omni#input_patterns	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^  let g:neocomplete#sources#omni#input_patterns = {}$/;"	variable	line:63
+g:neocomplete#sources#omni#input_patterns	/Users/adrian/.config/nvim/custom/config/neocomplete.vim	/^let g:neocomplete#sources#omni#input_patterns.perl = '\\h\\w*->\\h\\w*\\|\\h\\w*::'$/;"	variable	line:71
+<leader>ne	/Users/adrian/.config/nvim/custom/config/nerdtree.vim	/^nmap <leader>ne :NERDTreeToggle<cr>$/;"	map	line:3
+<C-n>	/Users/adrian/.config/nvim/custom/config/nerdtree.vim	/^map <C-n> :NERDTreeToggle<CR>$/;"	map	line:4
+<leader>f	/Users/adrian/.config/nvim/custom/config/nerdtree.vim	/^map <leader>f :call ShowFileInNERDTree()<cr>$/;"	map	line:5
+g:nerdtree_tabs_open_on_console_startup	/Users/adrian/.config/nvim/custom/config/nerdtree.vim	/^let g:nerdtree_tabs_open_on_console_startup = 1 " Always show nerdtree on start$/;"	variable	line:6
+g:NERDTreeWinSize	/Users/adrian/.config/nvim/custom/config/nerdtree.vim	/^let g:NERDTreeWinSize=25$/;"	variable	line:7
+g:Powerline_symbols	/Users/adrian/.config/nvim/custom/config/powerline.vim	/^let g:Powerline_symbols = 'fancy'$/;"	variable	line:4
+g:SuperTabDefaultCompletionType	/Users/adrian/.config/nvim/custom/config/supertab.vim	/^let g:SuperTabDefaultCompletionType = "<C-o>"$/;"	variable	line:2
+g:syntastic_auto_check_on_open	/Users/adrian/.config/nvim/custom/config/syntastic.vim	/^let g:syntastic_auto_check_on_open = 1$/;"	variable	line:5
+g:syntastic_check_on_wq	/Users/adrian/.config/nvim/custom/config/syntastic.vim	/^let g:syntastic_check_on_wq = 0$/;"	variable	line:6
+g:syntastic_error_symbol	/Users/adrian/.config/nvim/custom/config/syntastic.vim	/^let g:syntastic_error_symbol = '✘'$/;"	variable	line:7
+g:syntastic_warning_symbol	/Users/adrian/.config/nvim/custom/config/syntastic.vim	/^let g:syntastic_warning_symbol = "▲"$/;"	variable	line:8
+mySyntastic	/Users/adrian/.config/nvim/custom/config/syntastic.vim	/^augroup mySyntastic$/;"	augroup	line:10
+<F4>	/Users/adrian/.config/nvim/custom/config/vim-explorer.vim	/^map <F4> :!ls<CR>:e$/;"	map	line:3
+g:go_disable_autoinstall	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_disable_autoinstall = 0$/;"	variable	line:6
+g:go_highlight_build_constraints	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_highlight_build_constraints = 1$/;"	variable	line:9
+g:go_highlight_extra_types	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_highlight_extra_types = 1$/;"	variable	line:10
+g:go_highlight_fields	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_highlight_fields = 1$/;"	variable	line:11
+g:go_highlight_functions	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_highlight_functions = 1$/;"	variable	line:12
+g:go_highlight_methods	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_highlight_methods = 1$/;"	variable	line:13
+g:go_highlight_operators	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_highlight_operators = 1$/;"	variable	line:14
+g:go_highlight_structs	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_highlight_structs = 1$/;"	variable	line:15
+g:go_highlight_types	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_highlight_types = 1$/;"	variable	line:16
+g:go_fmt_command	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_fmt_command = "gofmt"$/;"	variable	line:19
+g:go_metalinter_deadline	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_metalinter_deadline = "5s"$/;"	variable	line:23
+g:go_metalinter_enabled	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_metalinter_enabled = [$/;"	variable	line:24
+g:go_addtags_transform	/Users/adrian/.config/nvim/custom/config/vim-go.vim	/^let g:go_addtags_transform = "camelcase"$/;"	variable	line:65
